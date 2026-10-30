@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     ENVIRONMENT: str = "development"
     PROJECT_NAME: str = "app"
     DEBUG: bool = True
+    DOCS_OFFLINE: bool = True
 
     DB: DatabaseSettings = DatabaseSettings()
 
